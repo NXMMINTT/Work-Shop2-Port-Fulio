@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+
+    <link rel="stylesheet" href="style-Skills.css">
+
+     <!-- box icon link -->
+     <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"> 
+ 
+     <!-- remix icon link -->
+     <link
+     href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+     rel="stylesheet"/>
+ 
+     <!-- google font link -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+     <!-- header -->
+     <header>
+        <a href="#" class="logo"><img src="img/img/logo.png" alt=""></a>
+
+        <ul class="menulist">
+            <a href="index.html" >Home</a>
+            <a href="AboutMe.html">About Me</a>
+            <a href="Skills.html" class="active">Skills</a>
+            <a href="Portfolio.html">Portfolio</a>
+            <a href="Contact.html">Contact</a>
+        </ul>
+        <div class="menu-right">
+            <a href="#" class="menu-btn">
+                <span>Let's Talk</span>
+                <i class="ri-message-3-line"></i>
+            </a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+     </header>
+
+     <!-- services -->
+     <section class="services" id="services">
+        <div class="services-left">
+            <a href="#" class="h-line">
+                <i class="ri-shining-2-line"></i>
+                <span>My Skills!</span>
+               </a>
+               <h2>What I Provide <span>To My Team </span></h2>
+               
+            </div>
+        </div>
+
+        <!-- services box-->
+
+        <div class="services-right">
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-brush-line"></i>
+                </div>
+                <div class="box-text">
+                    <h5>Design</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>ออกแบบอินเทอร์เฟซที่ใช้งานง่ายให้ผู้ใช้ได้รับประสบการณ์ที่ดี</p>
+                </div>
+            </div> 
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-code-s-slash-line"></i>
+                </div>
+                <div class="box-text">
+                    <h5>Development</h5>
+                </div>
+                <div class="hidden-content">
+                    <p> มีประสิทธิภาพในการทำงานร่วมกับทีมเพื่อส่งมอบผลงานคุณภาพ</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-user-line"></i>
+                </div>
+                <div class="box-text">
+                    <h5>Team</h5>
+                </div>
+                <div class="hidden-content">
+                    <p> มีประสิทธิภาพในการทำงานร่วมกับทีมเพื่อส่งมอบผลงานคุณภาพ</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-html5-fill"></i>
+                </div>
+                <div class="box-text">
+                    <h5>HTML</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>ทำงานออกแบบเว็บไซต์โดยใช้ HTML ได้อย่างเชี่ยวชาญและประสบการณ์ในการพัฒนาเว็บไซต์</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-css3-fill"></i>
+                </div>
+                <div class="box-text">
+                    <h5>CSS</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>มีทักษะการใช้ CSS เพื่อออกแบบรูปแบบของเว็บไซต์ ทำให้หน้าเว็บดูสวยงามและใช้งานง่าย</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-javascript-fill"></i>
+                </div>
+                <div class="box-text">
+                    <h5>Javascript</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>ใช้ JavaScript เพื่อเพิ่มฟังก์ชันการทำงานให้กับเว็บไซต์ มีประสบการณ์การพัฒนาฟีเจอร์ต่างๆ บนเว็บไซต์มากมาย</p>
+                </div>
+            </div>
+            
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class='bx bxl-c-plus-plus' ></i>
+                </div>
+                <div class="box-text">
+                    <h5>C</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>มีความเชี่ยวชาญในการเขียนโปรแกรมด้วยภาษา C เพื่อพัฒนาแอพพลิเคชันและซอฟต์แวร์ต่างๆ</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class="ri-php-fill"></i>
+                </div>
+                <div class="box-text">
+                    <h5>PHP</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>ใช้ PHP ในการพัฒนาเว็บไซต์และระบบต่างๆ มีประสบการณ์ในการเขียนโค้ดเพื่อให้เว็บทำงานได้อย่างราบรื่นและมีประสิทธิภาพ</p>
+                </div>
+            </div>
+
+            <div class="box" onclick="toggleBox(this)">
+                <div class="box-icon">
+                    <i class='bx bxl-figma'></i>
+                </div>
+                <div class="box-text">
+                    <h5>Figma</h5>
+                </div>
+                <div class="hidden-content">
+                    <p>ออกแบบและพัฒนาอินเทอร์เฟซด้วย Figma เพื่อให้ได้งานที่สวยงามและใช้งานได้ง่าย</p>
+                </div>
+            </div>
+            
+            
+
+              
+        </div>
+
+     </section>
+
+     <!--js file -->
+    <script src="script.js"></script>
+
+     
+</body>
+</html>
